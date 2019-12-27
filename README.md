@@ -1,7 +1,8 @@
-EasyPermissionsDemo
+# EasyPermissionsDemo**
+
 A sample app demonstrating handling runtime permission in android marshmallow and above devices using Google's EasyPermissions library.
 
-Handling runtime permission in Marshmallow and above devices.
+### Handling runtime permission in Marshmallow and above devices.
 Dangerous permission cannot be directly granted by just mentioning it in Android Manifest, it has to be explicitly asked during runtime and user has to grant the permission.
 
 Handling runtime permission is a rudimentary task for any app. [Ask for permission, if denied show rationale dialog explaining why we need permission, if denied with never ask again, show a dialog asking user to grant permission from app settings screen, when returned from setting screen again check if the permission was given or no and so on....]
@@ -26,7 +27,9 @@ It depends on the app's use case on which flow to use.
 
 EasyPermissions handles all the scenarios of runtime permissions. Showing rationale dialog - a message explaining why the application needs this set of permissions will be displayed if the user rejects the request the first time. Redirecting the user to App settings screen to grant permission if user clicked denied and never ask again.
 
-Reference Links
+### Reference Links
 
 EasyPermssions Library - https://github.com/googlesamples/easypermissions
 Mindorks Blog - https://blog.mindorks.com/implementing-easy-permissions-in-android-android-tutorial
+
+![](app_working.gif)
