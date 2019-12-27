@@ -8,8 +8,9 @@ Dangerous permission cannot be directly granted by just mentioning it in Android
 Handling runtime permission is a rudimentary task for any app. [Ask for permission, if denied show rationale dialog explaining why we need permission, if denied with never ask again, show a dialog asking user to grant permission from app settings screen, when returned from setting screen again check if the permission was given or no and so on....]
 
 There are many libraries which provide wrapper over handling runtime permission. The top ones are
-Dexter - https://github.com/Karumi/Dexter
-EasyPermissions by google - https://github.com/googlesamples/easypermissions
+
+- Dexter - https://github.com/Karumi/Dexter
+- EasyPermissions by google - https://github.com/googlesamples/easypermissions
 
 EasyPermissions has more stars and larger community than Dexter. And also since it is developed by Google it is reliable.
 
